@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Alexandria - Menu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <i class="bi bi-cup-hot-fill me-2"></i>Café Alexandria
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="meals.html">Meals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="drinks.html">Drinks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sweets.html">Sweets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-md-12 text-center">
+            <h1 class="fw-bold">Our Menu</h1>
+            <p class="lead">Explore our delicious offerings</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-categories py-5">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Meals Card -->
+          <div class="col-md-6 col-lg-3">
+            <a href="meals.html" class="text-decoration-none">
+              <div class="card category-card">
+                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                  <h3 class="card-title">Meals</h3>
+                  <p class="card-text">Delicious meals for every taste</p>
+                </div>
+                <img src="https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img" alt="Meals">
+              </div>
+            </a>
+          </div>
+          
+          <!-- Drinks Card -->
+          <div class="col-md-6 col-lg-3">
+            <a href="drinks.html" class="text-decoration-none">
+              <div class="card category-card">
+                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                  <h3 class="card-title">Drinks</h3>
+                  <p class="card-text">Refreshing beverages for every mood</p>
+                </div>
+                <img src="https://images.pexels.com/photos/452737/pexels-photo-452737.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img" alt="Drinks">
+              </div>
+            </a>
+          </div>
+          
+          <!-- Sweets Card -->
+          <div class="col-md-6 col-lg-3">
+            <a href="sweets.html" class="text-decoration-none">
+              <div class="card category-card">
+                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                  <h3 class="card-title">Sweets</h3>
+                  <p class="card-text">Indulge in our delightful desserts</p>
+                </div>
+                <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card-img" alt="Sweets">
+              </div>
+            </a>
+          </div>
+          
+          <!-- Empty Card -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card category-card empty-card">
+              <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center">
+                <i class="bi bi-plus-circle-fill empty-icon"></i>
+                <h3 class="card-title mt-3">Coming Soon</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h5><i class="bi bi-cup-hot-fill me-2"></i>Café Alexandria</h5>
+          <p>Delicious food and drinks in a cozy atmosphere.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p>© 2023 Café Alexandria. All rights reserved.</p>
+          <div class="social-icons">
+            <a href="#" class="me-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="me-2"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
